@@ -14,14 +14,15 @@ Running Fortran
 4.	If required, set library path on line 40 of “HANK-Fortran.sh” 
 
 5.	All the output is saved as text files in the folder “FortranOutputDir” (will be created automatically). A zip is created Baseline-HANK.zip that has all the code files as well as the output. 
+
 Running Matlab
-1.	Copy the output directory in the folder “Matlab-JFI-Server-Fortran-Output” 
+1.	Copy the output directory “FortranOutputDir” in the folder “Matlab-JFI-Server-Fortran-Output”.
 
 2.	Run “Matlab-Main.m” to produce all the required tables and graphs
 
 3.	Rename figures name and comparison of moments from baseline version in lines 24 and 39 of “Matlab-Main.m”. As of now, the target is how different are moments from the ones recorded in Table 7 on modifying the code as described in the next section.
 
-4.	The folder already contains output from the Fortran code for several experiments with the Taylor Rule described in the next section.
+4.	Separate directories will be automatically created for steady state results and transition dynamics results. 
 
 Modification of baseline code
 1.	To modify Taylor Rule, edit “IterateTransitionStickyRb.f90”. 
