@@ -32,5 +32,4 @@ Modification of baseline code
 
 
 
-![image](https://user-images.githubusercontent.com/66937101/198154020-a3b4bd22-8598-4977-8a8a-5a37f3acf8d3.png)
 
